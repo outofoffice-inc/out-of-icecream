@@ -10,6 +10,7 @@ This app is bootstrapped with [Create React App](https://github.com/facebook/cre
   - You can use the "Handoff" mode (bottom left hand corner) to get design details.
 - A shell of the web app has been provided. You will be expected to fill in whatever is necessary to complete the application.
   - We encourage you to use the existing directory structure.
+  - Stylesheets will require layout code, but visual design styles (button, typography, borders, backgrounds) are included to cut down redundant work. However, you are free to modify any files as you wish.
 
 ## Expected Features
 - Display all ice cream flavors provided in the mock data in `src/flavors.js`. This emulates a `fetch` call to an API on the parent. Therefore, this file should only be imported once.
