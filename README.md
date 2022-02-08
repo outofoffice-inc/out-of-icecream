@@ -8,6 +8,7 @@ This app is bootstrapped with [Create React App](https://github.com/facebook/cre
 ## General Overview
 - [The design mockup is located here](https://marvelapp.com/prototype/2db5ei96/screen/84984522)
   - You can use the "Handoff" mode (bottom left hand corner) to get design details.
+- To begin, fork this repo into your account and checkout into your machine.
 - A shell of the web app has been provided. You will be expected to fill in whatever is necessary to complete the application.
   - We encourage you to use the existing directory structure.
 
@@ -33,16 +34,16 @@ This app is bootstrapped with [Create React App](https://github.com/facebook/cre
 In the project directory, you can run:
 
 ### `npm start`
-Runs the app in the development mode.\
+Runs the app in the development mode.
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 
 You may also see any lint errors in the console.
 
 ## Delivery
-Completion of your app should be committed to a public repo on GitHub. If this is not possible, the project can be zipped and sent via email.
+Completion of your app should be committed to a public forked version of this repo on GitHub. If this is not possible, the project can be zipped and sent via email.
 
 Regardless of method used, send the link to art@takemeoutofoffice.com upon completion.
 
