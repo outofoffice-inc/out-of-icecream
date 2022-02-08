@@ -1,0 +1,32 @@
+.sort {
+}
+
+.sort h3 {
+  color: #194145;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+}
+
+.sort .sort-label {
+  color: #194145;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sort .sort-label input.sort-radio + span {
+  border-radius: 5px;
+  user-select: none;
+}
+
+.sort .sort-label input.sort-radio:checked + span {
+  color: #fff;
+  background-color: #194145;
+}
+
+.sort input.sort-radio {
+}

@@ -1,0 +1,126 @@
+.ice-cream {
+  background-color: #fff;
+  border: 1px solid rgba(70, 25, 228, 0.15);
+  border-radius: 32px;
+  box-shadow: 0 4px 24px 0 rgba(77, 159, 252, 0.07);
+  transition: .4s;
+  width: 308px;
+  height: 460px;
+}
+
+.ice-cream figure {
+  height: 265px;
+}
+
+.ice-cream figure img {
+}
+
+.ice-cream .details {
+  height: 98px;
+}
+
+.ice-cream .details .name {
+  color: #194145;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: left;
+}
+
+.ice-cream .details .desc {
+  color: #194145;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  height: 36px;
+}
+
+.ice-cream footer {
+}
+
+.ice-cream footer .price {
+  color: #194145;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.ice-cream footer .quantity-controls {
+  height: 40px;
+}
+
+.ice-cream footer .quantity {
+  color: #F3164D;
+  font-size: 30px;
+  line-height: 36px;
+  width: 44px;
+  text-align: center;
+  font-weight: bold;
+  user-select: none;
+}
+
+.ice-cream footer .quantity-btn {
+  border: 1px solid rgba(70, 25, 228, 0.15);
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  cursor: pointer;
+  background-color: #fff;
+  transition: transform .3s;
+}
+
+.ice-cream footer .quantity-btn:hover {
+  background-color: #f3f3f3;
+} 
+
+.ice-cream footer .quantity-btn:active {
+  transform: scale(1.2);
+}
+
+.ice-cream footer .quantity-btn.zero {
+  background-color: #F3164D;
+}
+
+.ice-cream footer .quantity-btn.zero:hover {
+  background-color: #ad173d;
+}
+
+.ice-cream footer .quantity-btn:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  top: 25%;
+  left: 25%;
+  height: 50%;
+  width: 50%;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.ice-cream footer .quantity-btn.zero:after {
+  background-image: url('./../../assets/plus-white.png');
+}
+
+.ice-cream footer .quantity-btn.plus:after {
+  background-image: url('./../../assets/plus-blue.png');
+}
+
+.ice-cream footer .quantity-btn.minus:after {
+  background-image: url('./../../assets/minus-blue.png');  
+}
+
+.ice-cream footer .quantity-btn span {
+  display: none;
+}
+
+.ice-cream footer .quantity-btn.disabled {
+  opacity: .2;
+  cursor: not-allowed;
+}
+
+.ice-cream footer .quantity-btn.disabled:active {
+  transform: scale(1);
+}
